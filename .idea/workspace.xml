@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6394d9a1-f44e-44ff-972d-ba5a59de9eeb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/animation/AnimateAsciiImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/util/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/util/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/util/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/util/KeyBoardInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/util/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/util/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/JCEngine/util/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/console_ludo/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/console_ludo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/game/ludo/console_ludo/UniversalGrid.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Fp3dh0FbRiDpoR1MRH8KyfOoqL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hilal/IdeaProjects/ConsoleLudo/src/main/java/org/game/ludo/JCEngine&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hilal\IdeaProjects\ConsoleLudo\src\main\java\org\game\ludo\JCEngine" />
+      <recent name="C:\Users\hilal\IdeaProjects\ConsoleLudo\src\main\java\org\game\ludo\JCEngine\util" />
+      <recent name="C:\Users\hilal\IdeaProjects\ConsoleLudo\src\main\java\org\game\ludo\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.game.ludo.JCEngine.util.animation" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.game.ludo.console_ludo.Main" />
+      <module name="ConsoleLudo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.game.ludo.console_ludo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6394d9a1-f44e-44ff-972d-ba5a59de9eeb" name="Changes" comment="" />
+      <created>1665175290564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665175290564</updated>
+    </task>
+    <servers />
+  </component>
+</project>
