@@ -1,4 +1,4 @@
-package org.game.ludo.JCEngine.util;
+package org.game.jcengine.util;
 
 import java.io.IOException;
 
@@ -39,5 +39,9 @@ public class KeyBoardInput {
 
     public void setKeyBoardKey(Key keyBoardKey) {
         this.keyBoardKey = keyBoardKey;
+    }
+
+    public enum Key {
+        RIGHT,LEFT,UP,DOWN,SPACE,ENTER,TAB,ESC,BACKSPACE,HOLD,NONE
     }
 }

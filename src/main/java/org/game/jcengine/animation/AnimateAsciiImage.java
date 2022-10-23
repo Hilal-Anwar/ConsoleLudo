@@ -1,4 +1,4 @@
-package org.game.ludo.JCEngine.animation;
+package org.game.jcengine.animation;
 
 public class AnimateAsciiImage {
     private String f1;

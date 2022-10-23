@@ -1,4 +1,4 @@
-package org.game.ludo.JCEngine.util;
+package org.game.jcengine.util;
 
 public enum Position
 {

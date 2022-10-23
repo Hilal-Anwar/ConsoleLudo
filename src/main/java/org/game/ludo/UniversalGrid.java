@@ -1,4 +1,4 @@
-package org.game.ludo.console_ludo;
+package org.game.ludo;
 
 public class UniversalGrid {
     private int row;
