@@ -9,9 +9,17 @@ import java.io.IOException;
 import java.util.HashSet;
 
 public class Scene {
+    private HashSet<Entity> entityHashMap;
     private final int width;
     private final int height;
     Terminal terminal;
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
     public Scene(int width,int height){
         this.width=width;
         this.height=height;
@@ -29,6 +37,12 @@ public class Scene {
     public void clear_scene(){
         terminal.puts(InfoCmp.Capability.clear_screen);
     }
-    private HashSet<Entity> entityHashMap;
 
+    public HashSet<Entity> getEntityHashMap() {
+        return entityHashMap;
+    }
+
+    public Terminal getTerminal() {
+        return terminal;
+    }
 }

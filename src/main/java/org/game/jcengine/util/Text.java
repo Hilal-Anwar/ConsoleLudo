@@ -8,7 +8,18 @@ public class Text {
         this.text=String.valueOf(text.charAt(0));
         this.colors=colors;
     }
-    public static String getColorText(String text, Colors colors){
+
+    public String getText() {
+        return text;
+    }
+
+    public Colors getColors() {
+        return colors;
+    }
+    public String getTextWithColor(){
         return colors.getColor()+text+"\33[0m";
+    }
+    public static String getSpace(){
+        return "  ";
     }
 }

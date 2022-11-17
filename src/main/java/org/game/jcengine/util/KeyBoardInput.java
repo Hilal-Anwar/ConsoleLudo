@@ -1,15 +1,17 @@
 package org.game.jcengine.util;
 
+import org.game.jcengine.core.Scene;
+
 import java.io.IOException;
 
 public class KeyBoardInput {
     private Key keyBoardKey = Key.NONE;
 
-    public KeyBoardInput(Display display) {
+    public KeyBoardInput(Scene scene) {
         new Thread(() -> {
             while (true) {
                 try {
-                    setKeyBoardKey(getKeys(display.terminal.reader().read()));
+                    setKeyBoardKey(getKeys(scene.getTerminal().reader().read()));
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
