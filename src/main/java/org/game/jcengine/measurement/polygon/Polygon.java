@@ -23,7 +23,7 @@ abstract public class Polygon implements PolygonMeasurement {
             var y=Double.parseDouble(s.substring(s.indexOf(',') + 1, s.indexOf(')')));
             this.xCoordinate.add(x);
             this.yCoordinate.add(y);
-            point.add(new Point((int)x,(int)y));
+            point.add(new Point(x,y));
         });
         IntStream.range(0, point.size()-1).
                 forEach(i -> this.sides.add(new Side(point.get(i), point.get(i+1))));
@@ -32,10 +32,9 @@ abstract public class Polygon implements PolygonMeasurement {
     }
 
     public Polygon(Point... points) {
-        int scale=10;
         Arrays.stream(points).forEachOrdered(s -> {
-            this.xCoordinate.add(s.getX()*1.0);
-            this.yCoordinate.add(s.getY()*1.0);
+            this.xCoordinate.add(s.getX());
+            this.yCoordinate.add(s.getY());
         });
         IntStream.range(0, points.length - 1).
                 forEach(i -> this.sides.add(new Side(points[i], points[i + 1])));

@@ -17,7 +17,7 @@ public class Text {
         return colors;
     }
     public String getTextWithColor(){
-        return colors.getColor()+text+"\33[0m";
+        return colors.getColor()+text+text+"\33[0m";
     }
     public static String getSpace(){
         return "  ";
